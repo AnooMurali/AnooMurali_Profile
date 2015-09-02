@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Anoo Murali</title>
+	<link rel="stylesheet" href="custom/custom_desktop.css">
+</head>
+<body>
+	<div id="fixedHeader">
+			<h1><b>Anoo Murali</b></h1>
+			<h3><b>Business Analyst/Web designer</b></h3>
+			<ul>
+				<li id="home"><a href="#">HOME</a></li>
+				<li id="resume.html"><a href="#">RESUME</a></li>
+				<li id="projects"><a href="#">PROJECTS</a></li>
+				<li id="contact"><a href="#">CONTACT</a></li>
+			</ul>
+	</div> <!--end of fixedHeader div -->
+	<!-- this is the image div that holds my pic -->
+	<div id="imageDiv">
+		<img src="image/IMG_4221.jpg" class="img1" alt="photo">
+	</div>
+	<div id="content">
+		<h1><b>Hello,</h1></b><h4>a bit&nbsp;about me:</h4>
+		<div id="circleCV"><span></span>My Resume</div>
+		<div id="circleWork"><span></span>My Work</div>
+		<div id="circleSkills"><span></span>My Skills</div>
+	</div> <!--end of content div -->
+	<div id="fixedFooter">
+		<div id="box1">
+			<img src="image/phone_icon1.png" class="img" alt="phone"/>
+			<span><strong><p class="line1">Call</p></strong><p class="line2">973-901-4346</span></p>
+		</div>
+		<div id="box2">
+			<img src="image/email_icon.png" class="img" alt="email"/>
+			<span><strong><p class="line1">Contact</p></strong><p class="line2">anoo21@gmail.com</span></p>
+		</div>
+		<div id="box3">
+			<img src="image/follow_me.png" class="img" alt="email"/>
+			<span><strong><p class="line1">Follow me on</p></strong><p class="line2"><img src="image/fb.png" class="img2" alt="fbook"/><img src="image/tw.png" class="img3" alt="twitter"/><img src="image/in.png" class="img2" alt="linkedin"/></span></p>
+		</div>
+		<div id="box4">
+			<img src="image/email_icon.png" class="img" alt="email"/>
+			<span><p class="line2">@ by Anoo Murali</p>
+		</div>
+	</div> <!--end of fixedfooter div -->
+</body>
+</html>

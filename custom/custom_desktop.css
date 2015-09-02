@@ -1,0 +1,442 @@
+*{
+	/*border: 2px solid black;*/
+}
+a{
+	color: #917C85;
+	text-decoration: none;
+}
+body {
+	background-color: #E0D5D5;
+	margin:80px 80px 100px 100px;
+	font-family: "Proxima Nova Semibold",sans-serif
+	font: #4D4D4D;
+	line-height: normal;
+	letter-spacing: normal;
+}
+div#fixedHeader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:black;
+	background-color:#E0D5D5;
+	padding: 2em;  /*this element increases the height of the div by giving it some padding */
+}
+div#fixedHeader h1{
+	position: fixed;
+	margin-left: 260px;
+	width: 6em;
+	height: 1em;
+	display: inline-block;
+	text-transform: capitalize;
+	text-align: left;
+	font: 12px/1.25 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+	font-size: 3em;
+	color: #4D4D4D;
+}
+div#fixedHeader h3{
+	position: fixed;
+	margin-left: 260px;
+	width: 18em;
+	height: 1em;
+	display: inline-block;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 5em;
+	text-align: left;
+}
+div#nameDiv h3{
+	margin: 0;
+}
+ul{
+	width:  45em;
+	height: 2em;
+	float: right;
+	margin-top: 90px;
+	margin-right: 90px;
+	color: #8B8B8B;
+}
+ul li{
+	display: inline-block;
+	font-size: 10pt;
+	text-decoration: none; 
+	margin-left: 20px;
+	line-height: 30px;
+}
+div#imageDiv{
+	position: absolute;
+	top: 260px;
+	left: 250px;
+	width: 400px;
+	height: 395px;
+}
+div#imageDiv .img1{
+	position: static;
+	box-shadow: 0px 0px 0px #000;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+div#content{
+	position: absolute;
+	top: 210px;
+	left: 700px;
+	width: 680px;
+	height: 360px;
+	text-align: left;
+}
+div#content h1{
+	font-size: 4em;
+	margin: 0;
+	color: #4D4D4D;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent; 
+}
+div#content h4{
+	text-transform: lowercase;
+	margin: 0;
+	color: #4D4D4D;
+	margin-top: 8px;
+	line-height: normal;
+	letter-spacing: normal;
+	font-size: 2em;
+}
+div#circleCV{
+	display: inline-block;	
+	position: absolute;
+	height: 130px;
+	width: 130px;
+	margin-left: 0;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 5em;
+	overflow: hidden;
+	background-color: rgba(232, 53, 86, 1);
+	border: rgba(232, 53, 86, 1) solid 0px;
+	color: white;
+	text-transform: uppercase;
+}
+div#circleCV:hover{
+	background-color: rgba(155, 36, 57, 1);
+	border: solid rgba(155, 36, 57, 1) -5px;
+}
+/*span works for centering text in a circular div*/
+div#circleCV span{
+	height: 130px;
+	display: inline-block;
+	zoom: 1; 
+	*display: inline;
+	vertical-align: middle;
+}
+div#circleWork{
+	display: inline-block;	
+	position: absolute;
+	height: 130px;
+	width: 130px;
+	margin-left: 10em;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 5em;
+	overflow: hidden;
+	background-color: rgba(97, 208, 212, 1);
+	border: rgba(97, 208, 212, 1) solid 0px;
+	color: white;
+	text-transform: uppercase;
+}
+div#circleWork:hover{
+	background-color: rgba(65, 139, 141, 1);
+	border: solid rgba(65, 139, 141, 1) -5px;
+}
+div#circleWork span{
+	height: 130px;
+	display: inline-block;
+	zoom: 1; 
+	*display: inline;
+	vertical-align: middle;
+}
+div#circleSkills{
+	display: inline-block;	
+	position: absolute;
+	height: 130px;
+	width: 130px;
+	margin-left: 20em;
+	border-radius: 50%;
+	text-align: center;
+	margin-top: 5em;
+	overflow: hidden;
+	background-color: rgba(209, 201, 38, 1);
+	border: rgbargba(209, 201, 38, 1) solid 0px;
+	color: white;
+	text-transform: uppercase;
+}
+div#circleSkills:hover{
+	background-color: rgba(139, 134, 25, 1);
+	border: solid rgba(139, 134, 25, 1) -4px;
+}
+div#circleSkills span{
+	height: 130px;
+	display: inline-block;
+	zoom: 1; 
+	*display: inline;
+	vertical-align: middle;
+}
+div#fixedFooter {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background-color: rgba(232, 53, 86, 1);
+	padding:25px;
+}
+div#box1{
+	position: relative;
+	height: 60px;
+	width: 180px;
+	margin-left: 12em;
+	color: rgba(255, 255, 255, 1);
+	/*border: 1px solid black;*/
+}
+.line1{
+	position: absolute;
+	margin-left: 60px;
+	margin-top:-18px;
+	top: 50%;
+	vertical-align: middle;
+}
+.line2{
+	position: absolute;
+	margin-left: 60px;
+	margin-top:2px;
+	top: 50%;
+	vertical-align: middle;
+}
+.img{
+	height: 42px;
+	width: 42px;
+	margin-left: 1px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.img2{
+	height: 20px;
+	width: 20px;
+	margin-left: 1px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+}
+.img3{
+	height: 20px;
+	width: 20px;
+	margin-left: 1px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 32px;
+	float: left;
+}
+div#box2{
+	position: absolute;
+	display:inline-block;
+	float: right;
+	height: 60px;
+	width: 200px;
+	margin-left: 12em;
+	margin-top: -62px;
+	color: rgba(255, 255, 255, 1);
+	/*border: 1px solid black;*/
+}
+div#box3{
+	position: absolute;
+	display:inline-block;
+	float: right;
+	height: 40px;
+	width: 180px;
+	margin-left: 30em;
+	margin-top: -62px;
+	color: rgba(255, 255, 255, 1);
+	/*border: 1px solid black;*/
+}
+div#box4{
+	position: absolute;
+	display:inline-block;
+	float: right;
+	height: 60px;
+	width: 200px;
+	margin-left: 46em;
+	margin-top: -62px;
+	color: rgba(255, 255, 255, 1);
+	/*border: 1px solid black;*/
+}
+/*-----Resume page custom stylesheet-----------------------------------*/
+div#cvHeader{
+	position: absolute;
+	top: 15em;
+	left: 18em;
+	width: 16em;
+	height: 3em;
+	text-align: left;
+}
+div#cvHeader h2{
+	font-size: 4em;
+	margin: 0;
+	color: #4D4D4D;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent; 
+	line-height: normal;
+	letter-spacing: normal;
+	color: #4d4d4d;
+	font: normal normal normal 60px/.8em "noticia text", serif;
+	text-transform: uppercase;
+}
+div.lineA{
+	left: 18em;
+	width: 600px;
+	position: absolute;
+	top:21em;
+	border-bottom: 1px solid rgba(139, 139, 139, 1);
+	height: 0px !important;
+}
+div.circleOne{
+	display: inline-block;	
+	position: absolute;
+	height: 130px;
+	width: 130px;
+	margin-left: 11em;
+	margin-top: 18em;
+	border-radius: 50%;
+	text-align: left;
+	letter-spacing: normal;
+	overflow: hidden;
+	background-color: rgba(232, 53, 86, 1);
+	border: rgba(232, 53, 86, 1) solid 0px;
+}
+div#textOne{
+	color: white;
+	font: 'noticia text', serif;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px; 
+	margin-top: 3em;
+	margin-left: 2px;
+	font-weight: bold;
+}
+div.article1{
+	display: inline-block;	
+	position: absolute;
+	height: 140px;
+	width: 460px;
+	margin-left: 25em;
+	margin-top: 18em;
+	text-align: left;
+	letter-spacing: normal;
+}
+div.lineB{
+	left: 18em;
+	width: 600px;
+	position: absolute;
+	top:33em;
+	border-bottom: 1px solid rgba(139, 139, 139, 1);
+	height: 0px !important;
+}
+div.circleTwo{
+	display: inline-block;	
+	position: absolute;
+	height: 130px;
+	width: 130px;
+	margin-left: 11em;
+	border-radius: 50%;
+	text-align: left;
+	margin-top: 30em;
+	overflow: hidden;
+	background-color: rgba(232, 53, 86, 1);
+	border: rgba(232, 53, 86, 1) solid 0px;
+	color: white;
+}
+div.article2{
+	display: inline-block;	
+	position: absolute;
+	height: 140px;
+	width: 460px;
+	margin-left: 25em;
+	margin-top: 30em;
+	text-align: left;
+	letter-spacing: normal;
+}
+div.lineC{
+	left: 18em;
+	width: 600px;
+	position: absolute;
+	top:40em;
+	border-bottom: 1px solid rgba(139, 139, 139, 1);
+	height: 0px !important;
+}
+div.circleThree{
+	display: inline-block;	
+	position: absolute;
+	height: 130px;
+	width: 130px;
+	margin-left: 11em;
+	border-radius: 50%;
+	text-align: left;
+	margin-top: 18em;
+	overflow: hidden;
+	background-color: rgba(232, 53, 86, 1);
+	border: rgba(232, 53, 86, 1) solid 0px;
+	color: white;
+}
+div#rightSidebar{
+	position: absolute;
+	height: 400px;
+	width: 400px;
+	margin-left: 50em;
+	margin-top: 11em;
+	line-height: 0;
+	letter-spacing: normal;
+	text-align: left;
+	padding: 3em;
+	/*border: 1px solid black;*/
+}
+div#rightSidebar.imgE{
+	height: 4em;
+	width: 4em;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 2px;
+	float: left;
+}
+div#rightSidebar ul li.skill1{
+	display: block;
+	margin-left: 32em;
+	margin-top: -7em;
+	padding-bottom:8em;
+	line-height:2em;
+	border:0;
+	outline: 0;
+	vertical-align: baseline;
+	background:transparent;
+	letter-spacing: normal;
+	color: #4d4d4d;
+	font: normal normal normal 13px/1.2em "Open Sans", sans-serif;
+	text-transform: uppercase;
+}
+div#shortLine1{
+	position: absolute;
+	margin-left: 60px;
+	margin-top:-18px;
+	top: 50%;
+	vertical-align: middle;
+}
