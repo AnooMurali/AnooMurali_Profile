@@ -1,6 +1,18 @@
-*{
-	/*border: 2px solid black;*/
+::-webkit-input-placeholder {
+    color: black;
+ }
+:-moz-placeholder {
+    color: black;
 }
+::-moz-placeholder {
+    color: black;
+    font-family: "Proxima Nova Semibold",sans-serif;
+}
+:-ms-input-placeholder {
+    color: black;
+    font-family: "Proxima Nova Semibold",sans-serif;
+}
+
 a{
 	color: #917C85;
 	text-decoration: none;
@@ -168,7 +180,7 @@ div#circleSkills{
 	margin-top: 5em;
 	overflow: hidden;
 	background-color: rgba(209, 201, 38, 1);
-	border: rgba(209, 201, 38, 1) solid 0px;
+	border: rgbargba(209, 201, 38, 1) solid 0px;
 	color: white;
 	text-transform: uppercase;
 }
@@ -199,6 +211,27 @@ div#box1{
 	margin-left: 12em;
 	color: rgba(255, 255, 255, 1);
 	/*border: 1px solid black;*/
+}
+.lineA{
+	position: absolute;
+	margin-left: 60px;
+	margin-top:-30px;
+	top: 50%;
+	vertical-align: middle;
+}
+.lineB{
+	position: absolute;
+	margin-left: 60px;
+	margin-top:-18px;
+	top: 50%;
+	vertical-align: middle;
+}
+.lineC{
+	position: absolute;
+	margin-left: 60px;
+	margin-top:2px;
+	top: 50%;
+	vertical-align: middle;
 }
 .line1{
 	position: absolute;
@@ -238,7 +271,7 @@ div#box1{
 	margin-left: 1px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	margin-top: 32px;
+	margin-top: 10px;
 	float: left;
 }
 div#box2{
@@ -274,170 +307,78 @@ div#box4{
 	color: rgba(255, 255, 255, 1);
 	/*border: 1px solid black;*/
 }
-/*-----Resume page custom stylesheet-----------------------------------*/
-div#cvHeader{
-	position: absolute;
-	top: 15em;
-	left: 18em;
-	width: 16em;
-	height: 3em;
-	text-align: left;
-}
-div#cvHeader h2{
-	font-size: 4em;
-	margin: 0;
-	color: #4D4D4D;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	vertical-align: baseline;
-	background: transparent; 
-	line-height: normal;
-	letter-spacing: normal;
-	color: #4d4d4d;
-	font: normal normal normal 60px/.8em "noticia text", serif;
-	text-transform: uppercase;
-}
-div.lineA{
-	left: 18em;
-	width: 600px;
-	position: absolute;
-	top:21em;
-	border-bottom: 1px solid rgba(139, 139, 139, 1);
-	height: 0px !important;
-}
-div.circleOne{
-	display: inline-block;	
-	position: absolute;
-	height: 130px;
-	width: 130px;
-	margin-left: 11em;
-	margin-top: 18em;
-	border-radius: 50%;
-	text-align: left;
-	letter-spacing: normal;
-	overflow: hidden;
-	background-color: rgba(232, 53, 86, 1);
-	border: rgba(232, 53, 86, 1) solid 0px;
+div#contactBox{
+	margin-left: 13em;
+	margin-top: 280px;
+	font: 14px/4.25 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
 }
 
-div#textOne{
+div#contact{
+	position: absolute;
+	margin-left: -4em;
+	margin-top: 100px;
+}
+div#contact h1{
+	position: absolute;
+	margin-left: 260px;
+	display: inline-block;
+	text-transform: capitalize;
+	text-align: left;
+	font: 12px/1.25 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+	font-size: 4em;
+	color: #4D4D4D;
+}
+div#contact h5{
+	position: fixed;
+	margin-left: 720px;
+	width: 22em;
+	height: 1em;
+	display: inline-block;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 4em;
+	text-align: left;
+	color: #917C85;
+}
+.contactText1{
+	padding: 0;
+    height: 30px;
+    width: 26em;
+    top: 100px;
+    position: relative;
+    margin-left: 45em;
+    margin-top: -2em;
+    border: 1px solid #cdcdcd;
+    background-color: rgba(232, 53, 86, 1);
+	border: rgba(232, 53, 86, 1) solid 1px;
+    font-size: 16px;
+    color: white;
+}
+.contactText2{
+	padding: 0;
+    height: 100px;
+    width: 26em;
+    top: 20px;
+    position: relative;
+    margin-left: 45em;
+    margin-top: 4em;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    background-color: rgba(232, 53, 86, 1);
+   	border: rgba(232, 53, 86, 1) solid 1px;
+    font-size: 16px;
+    color: white;
+}
+#btn_submit{
+	position: absolute;
+	background-color: rgba(97, 208, 212, 1);
+    margin-left: 80em;
+    margin-top: .5em;
+    width: 5.2em;
+    height: 3em;
+    display: inline-block;	
+	position: absolute;
+	border: rgba(97, 208, 212, 1) solid 1px;
 	color: white;
-	font: 'noticia text', serif;
-	font-weight: normal;
-	font-variant: normal;
-	font-style: normal;
-	padding-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px; 
-	margin-top: 3em;
-	margin-left: 2px;
-	font-weight: bold;
-}
-div.article1{
-	display: inline-block;	
-	position: absolute;
-	height: 140px;
-	width: 460px;
-	margin-left: 25em;
-	margin-top: 18em;
-	text-align: left;
-	letter-spacing: normal;
-}
-div.lineB{
-	left: 18em;
-	width: 600px;
-	position: absolute;
-	top:33em;
-	border-bottom: 1px solid rgba(139, 139, 139, 1);
-	height: 0px !important;
-}
-div.circleTwo{
-	display: inline-block;	
-	position: absolute;
-	height: 130px;
-	width: 130px;
-	margin-left: 11em;
-	border-radius: 50%;
-	text-align: left;
-	margin-top: 30em;
-	overflow: hidden;
-	background-color: rgba(232, 53, 86, 1);
-	border: rgba(232, 53, 86, 1) solid 0px;
-	color: white;
-}
-div.article2{
-	display: inline-block;	
-	position: absolute;
-	height: 140px;
-	width: 460px;
-	margin-left: 25em;
-	margin-top: 30em;
-	text-align: left;
-	letter-spacing: normal;
-}
-div.lineC{
-	left: 18em;
-	width: 600px;
-	position: absolute;
-	top:40em;
-	border-bottom: 1px solid rgba(139, 139, 139, 1);
-	height: 0px !important;
-}
-div.circleThree{
-	display: inline-block;	
-	position: absolute;
-	height: 130px;
-	width: 130px;
-	margin-left: 11em;
-	border-radius: 50%;
-	text-align: left;
-	margin-top: 18em;
-	overflow: hidden;
-	background-color: rgba(232, 53, 86, 1);
-	border: rgba(232, 53, 86, 1) solid 0px;
-	color: white;
-}
-div#rightSidebar{
-	position: absolute;
-	height: 400px;
-	width: 400px;
-	margin-left: 50em;
-	margin-top: 11em;
-	line-height: 0;
-	letter-spacing: normal;
-	text-align: left;
-	padding: 3em;
-	/*border: 1px solid black;*/
-}
-div#rightSidebar.imgE{
-	height: 4em;
-	width: 4em;
-	margin-right: 10px;
-	margin-bottom: 10px;
-	margin-top: 2px;
-	float: left;
-}
-div#rightSidebar ul li.skill1{
-	display: block;
-	margin-left: 32em;
-	margin-top: -7em;
-	padding-bottom:8em;
-	line-height:2em;
-	border:0;
-	outline: 0;
-	vertical-align: baseline;
-	background:transparent;
-	letter-spacing: normal;
-	color: #4d4d4d;
-	font: normal normal normal 13px/1.2em "Open Sans", sans-serif;
-	text-transform: uppercase;
-}
-div#shortLine1{
-	position: absolute;
-	margin-left: 60px;
-	margin-top:-18px;
-	top: 50%;
-	vertical-align: middle;
+	text-align: center;
 }
